@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    border: 2px solid red;
+}
+.zedge{
+    background-color: aqua;
+    color: white;
+}
+.zoo{
+    background-color: black;
+    color: white;
+}
+.boo{
+    background-color: red;
+    color: white;
+}
+.foo{
+    background-color: purple;
+    color: white;
+}
+p ~ ul {
+    background: #ff0000;
+}
+div + p {
+    background-color: yellow;
+}
+div > p{
+    background-color: royalblue;
+}
